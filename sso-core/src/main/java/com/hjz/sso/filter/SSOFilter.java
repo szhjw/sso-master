@@ -36,6 +36,7 @@ public class SSOFilter implements Filter{
 	@Override
 	public void doFilter(ServletRequest req, ServletResponse res,
 			FilterChain chain) throws IOException, ServletException {
+
 		 HttpServletRequest request = (HttpServletRequest) req;
 		 HttpServletResponse response = (HttpServletResponse) res;
 		 //请求中带有token，去sso-server验证token是否有效

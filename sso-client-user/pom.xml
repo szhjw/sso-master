@@ -32,8 +32,8 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <port>8020</port>
-          <path>/sso-server</path>
+          <port>8000</port>
+          <path>/sso-client-user</path>
           <uriEncoding>UTF-8</uriEncoding>
           <!--<finalName>mgr</finalName>-->
           <!--<serverXml>src/main/tomcatconf/server.xml</serverXml>-->

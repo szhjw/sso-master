@@ -27,10 +27,12 @@ public class LoginController {
 			String token = UUID.randomUUID().toString();
 			session.setAttribute("login", true);
 			session.setAttribute("token", token);
+			System.out.println("----------index");
 			return "index";
 		} else {
 			model.addAttribute("error", true);
 			model.addAttribute("message", "用户名或密码错误。");
+			System.out.println("----------login");
 			return "login";
 		}
 	}

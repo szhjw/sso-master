@@ -17,16 +17,16 @@
 	</appender>
 
 	<!-- project default level -->
-	<logger name="com.hjz.sso" level="ERROR" />
-	<logger name="org.springframework.amqp.rabbit.listener" level="ERROR" />
-	<logger name="org.apache.zookeeper.ClientCnxn" level="ERROR" />
+	<logger name="com.hjz.sso" level="debug" />
+	<logger name="org.springframework.amqp.rabbit.listener" level="debug" />
+	<logger name="org.apache.zookeeper.ClientCnxn" level="debug" />
 
 	<!--log4jdbc -->
-	<logger name="jdbc.connection" level="ERROR" />
-	<logger name="jdbc.audit" level="ERROR" />
-	<logger name="jdbc.resultset" level="ERROR" />
-	<logger name="jdbc.sqlonly" level="ERROR" />
-	<logger name="jdbc.sqltiming" level="ERROR" />
+	<logger name="jdbc.connection" level="debug" />
+	<logger name="jdbc.audit" level="debug" />
+	<logger name="jdbc.resultset" level="debug" />
+	<logger name="jdbc.sqlonly" level="debug" />
+	<logger name="jdbc.sqltiming" level="debug" />
 
 	<root level="ERROR">
 		<appender-ref ref="console" />

@@ -89,7 +89,7 @@ public class CacheConfig {
         JedisConnectionFactory factory = new JedisConnectionFactory(jedisPoolConfig());
         factory.setHostName(hostName);
         factory.setPort(port);
-        //factory.setPassword(password);
+        factory.setPassword(password);
         factory.setTimeout(timeout);
         factory.afterPropertiesSet();
         return factory;
